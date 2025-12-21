@@ -7,7 +7,7 @@ export default function BookingCard() {
 
       {/* Top Tabs */}
       <div className="flex gap-4 mb-4 text-sm font-medium">
-        <button className="border-b-2 border-black pb-1">Flights</button>
+        <button className="border-b-2 border-sky-700 pb-1">Flights</button>
         <button className="text-gray-500 hover:text-black transition">
           Hotels
         </button>
@@ -18,7 +18,7 @@ export default function BookingCard() {
 
       {/* Trip Type */}
       <div className="flex gap-3 mb-4">
-        <button className="rounded-full bg-black px-4 py-1 text-sm text-white">
+        <button className="rounded-full bg-sky-700 px-4 py-1 text-sm text-white">
           Round Trip
         </button>
         <button className="rounded-full border px-4 py-1 text-sm text-gray-600 hover:border-black transition">
@@ -39,7 +39,7 @@ export default function BookingCard() {
         </div>
       </div>
 
-      <button className="w-full rounded-full bg-black py-3 text-white font-medium hover:bg-sky-700 transition">
+      <button className="w-full rounded-full bg-sky-700 py-3 text-white font-medium hover:bg-black transition">
         Search Flights
       </button>
     </div>

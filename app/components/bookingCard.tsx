@@ -7,7 +7,9 @@ export default function BookingCard() {
 
       {/* Top Tabs */}
       <div className="flex gap-4 mb-4 text-sm font-medium">
-        <button className="border-b-2 border-sky-700 pb-1">Flights</button>
+        <button className="border-b-2 text-black border-sky-700 pb-1">
+          Flights
+        </button>
         <button className="text-gray-500 hover:text-black transition">
           Hotels
         </button>

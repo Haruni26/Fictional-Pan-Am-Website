@@ -9,7 +9,7 @@ export default function Header() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 z-50 w-full bg-black md:bg-black/40 backdrop-blur md:backdrop-blur-sm">
+    <header className="fixed top-0 z-50 w-full bg-sky-700 md:bg-black/40 backdrop-blur md:backdrop-blur-sm">
       <div className="relative flex items-center px-6 py-3">
         {/* Logo */}
         <Link href="/" aria-label="Go to home page">

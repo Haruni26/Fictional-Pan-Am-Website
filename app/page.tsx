@@ -9,6 +9,8 @@ export default function Home() {
         alt="Pan Am airport lounge"
         fill
         priority
+        className="object-cover object-center"
+        sizes="100vw"
       />
 
       {/* Overlay */}

@@ -75,6 +75,7 @@ export default function Header() {
 const navLinks = [
   { label: "Book", href: "#book" },
   { label: "Check In", href: "#checkIn" },
-  { label: "My Flights", href: "#flights" },
+  { label: "Manage Trips", href: "#trips" },
   { label: "Join WorldPass", href: "#worldpass" },
+  { label: "Sign In", href: "#signIn" },
 ];

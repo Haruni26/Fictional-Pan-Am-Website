@@ -24,12 +24,12 @@ export default function BookTab() {
               key={id}
               onClick={() => setProduct(id)}
               className={`relative px-4 py-2 rounded-full text-sm font-medium
-                ${active ? "text-white" : "text-gray-600 hover:bg-gray-50"}`}
+                ${active ? "text-white" : "text-black hover:bg-gray-50"}`}
             >
               {active && (
                 <motion.div
                   layoutId="productPill"
-                  className="absolute inset-0 bg-blue-700 rounded-full"
+                  className="absolute inset-0 bg-sky-700 rounded-full"
                 />
               )}
               <span className="relative z-10 flex items-center gap-2">

@@ -29,7 +29,7 @@ export default function BookingCard() {
               className={`relative px-6 py-4 text-sm font-semibold
                 ${
                   activeTab === tab.id
-                    ? "text-blue-700"
+                    ? "text-sky-700"
                     : "text-gray-500 hover:text-gray-800"
                 }`}
             >
@@ -37,7 +37,7 @@ export default function BookingCard() {
               {activeTab === tab.id && (
                 <motion.div
                   layoutId="primaryTab"
-                  className="absolute bottom-0 left-0 right-0 h-0.5 bg-blue-700"
+                  className="absolute bottom-0 left-0 right-0 h-0.5 bg-sky-700"
                 />
               )}
             </button>

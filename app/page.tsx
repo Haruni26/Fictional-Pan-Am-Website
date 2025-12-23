@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BookingCard from "./components/bookingCard";
+import BookingCard from "./components/booking/bookingCard";
 
 export default function Home() {
   return (

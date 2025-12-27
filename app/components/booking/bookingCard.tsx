@@ -18,7 +18,7 @@ export default function BookingCard() {
   const ActiveTab = TAB_MAP[activeTab];
 
   return (
-    <div className="w-full max-w-3xl mx-auto p-4 pt-24">
+    <div className="w-full max-w-4xl mx-auto p-5 pt-24">
       <div className="bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden">
         {/* Primary Tabs */}
         <div className="flex border-b border-gray-100">
